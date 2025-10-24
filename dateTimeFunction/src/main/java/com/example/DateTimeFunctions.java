@@ -62,7 +62,7 @@ public class DateTimeFunctions {
 		//getperiod diff between 2 dates
 		Period diff = date1.until(date2);
 		//turn that period diff into a string
-		String difference="Year-"+diff.getYears()+":Months-"+diff.getMonths()+":Days-"+diff.getDays();
+		String difference="Years-"+diff.getYears()+":Months-"+diff.getMonths()+":Days-"+diff.getDays();
 		return difference;
 		//YOUR CODE ENDS HERE
 
